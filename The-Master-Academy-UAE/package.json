@@ -1,0 +1,13 @@
+{
+  "name": "the-master-academy-uae",
+  "version": "1.0.0",
+  "private": true,
+  "description": "The Master Academy - UAE (Dubai / Arabic Version)",
+  "scripts": {
+    "dev": "npm --prefix Frontend run dev",
+    "start": "npm --prefix Frontend run dev",
+    "frontend": "npm --prefix Frontend run dev",
+    "backend": "npm --prefix Backend run dev",
+    "build": "npm --prefix Frontend run build"
+  }
+}

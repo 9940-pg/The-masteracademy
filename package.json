@@ -1,0 +1,12 @@
+{
+  "name": "the-master-academy-platform",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "The Master Academy - Unified Global & UAE Platform",
+  "scripts": {
+    "build": "node build-all.js",
+    "dev:en": "npm --prefix Frontend run dev",
+    "dev:uae": "npm --prefix The-Master-Academy-UAE/Frontend run dev"
+  }
+}
