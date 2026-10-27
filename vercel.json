@@ -4,6 +4,14 @@
   "outputDirectory": "Frontend/dist",
   "rewrites": [
     {
+      "source": "/uae-api/:path*",
+      "destination": "https://the-masteracademy.onrender.com/api/:path*"
+    },
+    {
+      "source": "/api/:path*",
+      "destination": "https://master-academy-api.onrender.com/api/:path*"
+    },
+    {
       "source": "/uae",
       "destination": "/uae/index.html"
     },
@@ -12,7 +20,7 @@
       "destination": "/uae/index.html"
     },
     {
-      "source": "/((?!api/).*)",
+      "source": "/((?!api/|uae-api/).*)",
       "destination": "/index.html"
     }
   ]

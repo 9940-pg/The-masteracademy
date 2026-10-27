@@ -26,6 +26,11 @@ export default defineConfig({
     host: true,
     port: 5174,
     proxy: {
+      '/uae-api': {
+        target: 'http://localhost:5001',
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/uae-api/, '/api'),
+      },
       '/api': {
         target: 'http://localhost:5001',
         changeOrigin: true,

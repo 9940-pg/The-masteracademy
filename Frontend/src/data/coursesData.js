@@ -1,0 +1,310 @@
+export const crashCourses = [
+  {
+    id: "crash-python-ai",
+    tag: "Crash Course",
+    title: "Python Programming with AI – Crash Course",
+    date: "29th August 2026 · 5:30 PM – 7:30 PM (IST)",
+    time: "5:30 PM – 7:30 PM (IST)",
+    duration: "2 Hours",
+    mode: "Live Online Classes (Zoom)",
+    level: "Beginner",
+    learn: [
+      "Python fundamentals & syntax",
+      "AI concepts & modern tools",
+      "Automation techniques",
+      "Real-world demonstrations",
+      "How Python powers today's AI applications",
+    ],
+    projects: [
+      "Live Python & AI Automation Demo",
+      "AI Prompt-Driven Script Execution",
+    ],
+    whoShouldJoin: [
+      "Beginners wanting to learn Python",
+      "Students curious about AI & Automation",
+      "Professionals looking to upskill quickly",
+      "Anyone wanting practical tech exposure",
+    ],
+    perks: [
+      "Master Academy Course Completion Certificate",
+      "Live Python & AI Project Demo",
+      "Session Recording & Starter Code",
+    ],
+    price: "₹499",
+    priceNote: "one-time",
+    priceNumber: 499,
+    overview:
+      "Kickstart your journey into Python Programming and Artificial Intelligence with our live, instructor-led crash course. Explore Python fundamentals, AI concepts, automation, and real-world demonstrations to understand how Python powers today's AI applications.",
+    faqs: [
+      {
+        question: "Who is this crash course for?",
+        answer: "This course is perfect for beginners who want to get introduced to Python and AI in a short time without prior programming experience.",
+      },
+      {
+        question: "Will I receive a certificate?",
+        answer: "Yes, every participant receives an official Master Academy Course Completion Certificate.",
+      },
+      {
+        question: "What if I miss the live session?",
+        answer: "All participants receive the complete video recording and source code access after the class.",
+      },
+    ],
+  },
+  {
+    id: "crash-webdev",
+    tag: "Crash Course",
+    title: "Practical Web Development with Real Projects & AI",
+    date: "30th August 2026 · 5:30 PM – 7:30 PM (IST)",
+    time: "5:30 PM – 7:30 PM (IST)",
+    duration: "2 Hours",
+    mode: "Live Online Classes (Zoom)",
+    level: "Beginner",
+    learn: [
+      "Basics of HTML5, CSS3, & Modern JavaScript",
+      "AI integration in web development",
+      "Modern web development technologies",
+      "How real-world responsive websites are built",
+    ],
+    projects: [
+      "Live Web Development & AI Project",
+      "AI-Powered Interactive Web Page",
+    ],
+    whoShouldJoin: [
+      "Beginners interested in web development",
+      "Students wanting to build real websites",
+      "Anyone curious about AI tools in web dev",
+    ],
+    perks: [
+      "Master Academy Course Completion Certificate",
+      "Live Web Development & AI Project Demo",
+      "Web Dev Starter Code Kit",
+    ],
+    price: "₹499",
+    priceNote: "one-time",
+    priceNumber: 499,
+    overview:
+      "Discover modern web development through our live, instructor-led crash course. Learn the basics of HTML, CSS, JavaScript, AI integration, and see how real-world websites are built using modern technologies.",
+    faqs: [
+      {
+        question: "Do I need any previous coding knowledge?",
+        answer: "No previous coding experience is needed. We start from ground zero with simple, intuitive explanations.",
+      },
+      {
+        question: "What software will we use?",
+        answer: "We'll use free tools like VS Code and modern browsers. Full setup instructions are provided.",
+      },
+    ],
+  },
+  {
+    id: "crash-aws-devops",
+    tag: "Crash Course",
+    title: "AWS Cloud Computing with DevOps – Crash Course",
+    date: "Upcoming Batch · 5:30 PM – 7:30 PM (IST)",
+    time: "5:30 PM – 7:30 PM (IST)",
+    duration: "2 Hours",
+    mode: "Live Online Classes (Zoom)",
+    level: "Beginner",
+    learn: [
+      "Fundamentals of AWS Cloud",
+      "Cloud infrastructure concepts",
+      "DevOps principles & lifecycle",
+      "Linux basics for cloud engineers",
+      "Cloud deployment through practical demonstrations",
+    ],
+    projects: [
+      "Live AWS Cloud Deployment Demo",
+      "EC2 Instance & Server Hosting Walkthrough",
+    ],
+    whoShouldJoin: [
+      "Beginners interested in Cloud & DevOps",
+      "Students preparing for cloud careers",
+      "IT professionals looking to understand AWS",
+    ],
+    perks: [
+      "Master Academy Course Completion Certificate",
+      "Live AWS & DevOps Project Demo",
+      "Cloud Architecture Cheatsheet",
+    ],
+    price: "₹499",
+    priceNote: "one-time",
+    priceNumber: 499,
+    overview:
+      "Begin your Cloud Computing journey with our live, instructor-led AWS & DevOps crash course. Learn the fundamentals of AWS, cloud infrastructure, DevOps concepts, Linux, and deployment through practical demonstrations.",
+    faqs: [
+      {
+        question: "Is this course hands-on?",
+        answer: "Yes, you will observe and follow live cloud server deployments and DevOps tooling in action.",
+      },
+      {
+        question: "Will this help me choose a cloud career path?",
+        answer: "Absolutely! The instructor breaks down AWS certifications and the exact career roadmap for cloud engineers.",
+      },
+    ],
+  },
+];
+
+export const fullCourses = [
+  {
+    id: "full-python-ai",
+    tag: "Full Program",
+    status: "Starting Soon",
+    title: "Python Programming with AI — Master Program",
+    duration: "12 Weeks (48 Hours)",
+    classes: "6:00 PM – 7:00 PM IST",
+    mode: "Live Online Classes (Zoom)",
+    level: "Beginner to Intermediate",
+    learn: [
+      "Complete Python programming from zero to advanced",
+      "Object-Oriented Programming (OOP) & clean code",
+      "Task automation & web scraping",
+      "Data analysis with Pandas & NumPy",
+      "AI tools, OpenAI APIs, and LLM integrations",
+      "5+ Industry-ready portfolio projects",
+    ],
+    projects: [
+      "Automated Workflow & Data Scraper Bot",
+      "Data Analysis & Visualization Dashboard",
+      "AI-Powered Document Assistant with OpenAI APIs",
+      "Custom REST API using FastAPI / Flask",
+      "Full Capstone Portfolio Project",
+    ],
+    whoShouldJoin: [
+      "Aspiring Python developers and data professionals",
+      "College students looking for internship-ready skills",
+      "Professionals wanting to automate repetitive tasks",
+      "Career switchers entering programming",
+    ],
+    perks: [
+      "Master Academy Course Completion Certificate",
+      "5+ Real-World Projects with Code Reviews",
+      "1-on-1 Career Mentoring & Resume Optimization",
+      "GitHub Portfolio Guidance & Mock Technical Interviews",
+      "Lifetime Alumni Discord / WhatsApp Community",
+    ],
+    price: "₹50,000",
+    priceNote: "installment available",
+    priceNumber: 50000,
+    overview:
+      "Launch your career into Python Programming and Artificial Intelligence with our flagship 12-week live, instructor-led program. Master Python from scratch, automate tasks, analyze data, integrate AI tools and APIs, and build a standout portfolio to land your dream role.",
+    faqs: [
+      {
+        question: "What is the course schedule?",
+        answer: "The program runs for 12 weeks with live classes scheduled from 6:00 PM – 7:00 PM IST, plus doubt-clearing sessions.",
+      },
+      {
+        question: "Are payment installments available?",
+        answer: "Yes, flexible monthly installment options are available. Connect with our admissions team on WhatsApp for details.",
+      },
+      {
+        question: "Do you provide job assistance?",
+        answer: "Yes! We provide complete career support including resume audits, LinkedIn optimization, portfolio reviews, and mock interviews.",
+      },
+    ],
+  },
+  {
+    id: "full-webdev",
+    tag: "Full Program",
+    status: "Starting Soon",
+    title: "Practical Web Development with Real Projects & AI",
+    duration: "12 Weeks (48 Hours)",
+    classes: "5:00 PM – 7:00 PM IST (Sat & Sun)",
+    mode: "Live Online Classes (Zoom)",
+    level: "Beginner to Intermediate",
+    learn: [
+      "Semantic HTML5, CSS3, Flexbox & CSS Grid",
+      "Modern JavaScript (ES6+), async/await, APIs",
+      "React.js component architecture & hooks",
+      "Tailwind CSS for production-grade UI design",
+      "AI integration into modern web apps",
+      "Git version control and Vercel/Netlify deployment",
+    ],
+    projects: [
+      "Responsive High-Converting Portfolio Website",
+      "Interactive Multi-Page Web Application",
+      "AI-Powered SaaS Assistant Dashboard",
+      "Full-Stack E-Commerce / LMS Prototype",
+      "Industry-Ready Capstone Web Project",
+    ],
+    whoShouldJoin: [
+      "Aspiring frontend & full-stack web developers",
+      "Students wanting to build real, deployable websites",
+      "Designers wanting to learn real code",
+      "Freelancers who want to charge for web projects",
+    ],
+    perks: [
+      "Master Academy Course Completion Certificate",
+      "5+ Real-World Projects Published Live",
+      "GitHub Portfolio Guidance",
+      "Code Reviews by Senior Engineers",
+      "Interview & Freelance Client Acquisition Prep",
+    ],
+    price: "₹60,000",
+    priceNote: "installment available",
+    priceNumber: 60000,
+    overview:
+      "Transform into a job-ready modern Web Developer. Build responsive websites, interactive web applications, integrate cutting-edge AI features, and publish portfolio-grade projects using React, JavaScript, and Tailwind CSS.",
+    faqs: [
+      {
+        question: "Will I build real websites during the course?",
+        answer: "Yes! You will build and deploy at least 5 live web applications that you can show to recruiters and clients.",
+      },
+      {
+        question: "How are doubts resolved?",
+        answer: "Through live interactive sessions, shared screen debugging, and our dedicated WhatsApp mentor group.",
+      },
+    ],
+  },
+  {
+    id: "full-aws-devops",
+    tag: "Full Program",
+    status: "Starting Soon",
+    title: "AWS Cloud Computing with DevOps",
+    duration: "12 Weeks (48 Hours)",
+    classes: "5:00 PM – 7:00 PM IST (Sat & Sun)",
+    mode: "Live Online Classes (Zoom)",
+    level: "Beginner to Intermediate",
+    learn: [
+      "AWS Core Services: EC2, S3, VPC, IAM, RDS, Route53",
+      "Linux Server Administration & Shell Scripting",
+      "Docker containerization & image management",
+      "CI/CD pipelines with GitHub Actions",
+      "Cloud security best practices and auto-scaling",
+      "AWS Solutions Architect certification preparation",
+    ],
+    projects: [
+      "Production Multi-Tier AWS VPC Setup",
+      "Automated CI/CD Pipeline for Web Deployment",
+      "Dockerized Microservice Architecture",
+      "High-Availability Auto-Scaling Cluster",
+      "Cloud Security & Disaster Recovery Setup",
+    ],
+    whoShouldJoin: [
+      "Aspiring Cloud & DevOps Engineers",
+      "System Administrators looking to upskill to AWS",
+      "Developers wanting to manage production infrastructure",
+      "Engineering graduates seeking high-paying cloud jobs",
+    ],
+    perks: [
+      "Master Academy Course Completion Certificate",
+      "5+ Real-World Production Cloud Projects",
+      "AWS Certified Solutions Architect Exam Guidance",
+      "Resume & Cloud Architecture Portfolio Review",
+      "Direct Mentor Support",
+    ],
+    price: "₹70,000",
+    priceNote: "installment available",
+    priceNumber: 70000,
+    overview:
+      "Launch your career in high-demand Cloud Computing and DevOps. Learn how to architect, deploy, and automate scalable systems on Amazon Web Services using Docker, Linux, and CI/CD pipelines.",
+    faqs: [
+      {
+        question: "Do I need to pay for AWS cloud resources?",
+        answer: "We guide you on using the AWS Free Tier, ensuring zero unnecessary cloud bill charges during hands-on labs.",
+      },
+      {
+        question: "Does this prepare me for certifications?",
+        answer: "Yes! The curriculum aligns directly with the AWS Certified Solutions Architect – Associate exam.",
+      },
+    ],
+  },
+];

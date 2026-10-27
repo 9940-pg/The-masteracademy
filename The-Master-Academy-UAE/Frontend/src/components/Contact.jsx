@@ -37,7 +37,7 @@ export default function Contact({ prefilledCourse }) {
   const handleWhatsAppSubmit = async (e) => {
     e.preventDefault();
     try {
-      fetch("/api/contact", {
+      fetch("/uae-api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ ...formData, source: "uae_whatsapp_inquiry_button" }),
@@ -61,7 +61,7 @@ export default function Contact({ prefilledCourse }) {
     e.preventDefault();
     setIsSubmitting(true);
     try {
-      const res = await fetch("/api/contact", {
+      const res = await fetch("/uae-api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ ...formData, source: "uae_website_contact_form" }),

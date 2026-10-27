@@ -210,7 +210,7 @@ function AddReviewModal({ isOpen, onClose, onReviewAdded }) {
     setIsSubmitting(true);
 
     try {
-      const response = await fetch("/api/testimonials", {
+      const response = await fetch("/uae-api/testimonials", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
@@ -467,7 +467,7 @@ export default function Testimonials() {
 
   const fetchTestimonials = async () => {
     try {
-      const res = await fetch("/api/testimonials?limit=100");
+      const res = await fetch("/uae-api/testimonials?limit=100");
       if (res.ok) {
         const json = await res.json();
         if (json.success && Array.isArray(json.data) && json.data.length > 0) {
