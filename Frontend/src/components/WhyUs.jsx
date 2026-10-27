@@ -85,7 +85,7 @@ export default function WhyUs() {
             </ul>
           </SpotlightCard>
 
-          <SpotlightCard className="bg-[#15141F] border border-white/10 rounded-2xl sm:rounded-3xl p-6 sm:p-8 md:p-10">
+          <SpotlightCard delay={120} className="bg-[#15141F] border border-white/10 rounded-2xl sm:rounded-3xl p-6 sm:p-8 md:p-10">
             <div className="w-12 h-12 rounded-2xl bg-[#8B5CF6]/15 flex items-center justify-center text-[#C4B5FD] mb-6">
               <svg viewBox="0 0 24 24" className="w-6 h-6 fill-none stroke-current stroke-2">
                 <path d="M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5a2 2 0 012-2h5l2 3h9a2 2 0 012 2z" />

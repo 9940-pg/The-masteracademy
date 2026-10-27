@@ -23,7 +23,7 @@ const faqs = [
   },
   {
     q: "How are doubts and questions resolved?",
-    a: "You can ask questions live during Zoom classes with screen sharing. Additionally, you gain access to our private WhatsApp and Discord community where trainers and peers answer questions 24/7.",
+    a: "You can ask questions live during Zoom classes with screen sharing. Additionally, you gain access to our private WhatsApp community where trainers and peers answer questions 24/7.",
   },
   {
     q: "Are installment payment options available?",

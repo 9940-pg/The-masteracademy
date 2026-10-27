@@ -44,9 +44,10 @@ export default function Audience() {
         </div>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6">
-          {audience.map((a) => (
+          {audience.map((a, idx) => (
             <SpotlightCard
               key={a.title}
+              delay={(idx % 3) * 100}
               className="bg-[#15141F] border border-white/10 rounded-2xl p-5 sm:p-7 flex flex-col justify-between hover:border-[#8B5CF6]/40 transition-colors"
             >
               <div className="flex items-start gap-4">

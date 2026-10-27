@@ -52,9 +52,10 @@ export default function Masterclasses() {
         </div>
 
         <div className="grid md:grid-cols-2 gap-8">
-          {sessions.map((s) => (
+          {sessions.map((s, idx) => (
             <SpotlightCard
               key={s.title}
+              delay={idx * 120}
               className="rounded-2xl bg-[#15141F] border border-white/10 flex flex-col overflow-hidden hover:border-[#8B5CF6]/50 transition-all duration-300 group"
             >
               {/* Media Thumbnail Banner */}

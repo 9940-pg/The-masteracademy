@@ -62,9 +62,10 @@ export default function Courses({ onSelectCourse }) {
 
         {/* Cards Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {(tab === "crash" ? crashCourses : fullCourses).map((c) => (
+          {(tab === "crash" ? crashCourses : fullCourses).map((c, idx) => (
             <SpotlightCard
               key={c.id}
+              delay={(idx % 3) * 100}
               className="rounded-2xl bg-[#15141F] border border-white/10 p-5 sm:p-7 flex flex-col h-full hover:border-[#8B5CF6]/50 transition-all duration-300"
             >
               {/* Badge & Mode */}

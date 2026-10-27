@@ -60,9 +60,10 @@ export default function Programs() {
         </div>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 sm:gap-6">
-          {areas.map((a) => (
+          {areas.map((a, idx) => (
             <SpotlightCard
               key={a.title}
+              delay={idx * 90}
               className="rounded-2xl bg-[#15141F] border border-white/10 p-5 sm:p-7 flex flex-col justify-between hover:border-[#8B5CF6]/40 transition-all duration-300"
             >
               <div>

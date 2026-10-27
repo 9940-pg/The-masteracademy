@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const channels = [
-  { label: "واتساب الإمارات", value: "+971 50 123 4567 / +91 93257 19765", href: "https://wa.me/919325719765?text=مرحباً%20ذا%20ماستر%20أكاديمي%20الإمارات" },
+  { label: "واتساب", value: "+91 93257 19765", href: "https://wa.me/919325719765?text=مرحباً%20ذا%20ماستر%20أكاديمي%20الإمارات" },
   { label: "البريد الإلكتروني", value: "themasteracademy26@gmail.com", href: "mailto:themasteracademy26@gmail.com" },
   { label: "إنستغرام", value: "@learn.withmasteracademy", href: "https://instagram.com/learn.withmasteracademy" },
   { label: "لينكد إن", value: "The Master Academy UAE", href: "https://linkedin.com" },
@@ -168,7 +168,7 @@ export default function Contact({ prefilledCourse }) {
                       name="phone"
                       value={formData.phone}
                       onChange={handleChange}
-                      placeholder="مثال: +971 50 123 4567"
+                      placeholder="مثال: +91 93257 19765 أو رقم هاتفك"
                       className="w-full bg-white/[0.04] border border-white/10 rounded-xl px-4 py-3 text-sm text-[#F8F7FC] placeholder:text-[#646173] outline-none focus:border-[#8B5CF6] transition-colors text-right"
                     />
                   </div>

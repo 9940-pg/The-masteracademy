@@ -179,7 +179,7 @@ export const fullCourses = [
       "5+ Real-World Projects with Code Reviews",
       "1-on-1 Career Mentoring & Resume Optimization",
       "GitHub Portfolio Guidance & Mock Technical Interviews",
-      "Lifetime Alumni Discord / WhatsApp Community",
+      "Lifetime Alumni WhatsApp Community",
     ],
     price: "₹50,000",
     priceNote: "installment available",

@@ -88,9 +88,10 @@ export default function StudentSuccess() {
 
         {/* Gallery Grid */}
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6">
-          {gallery.map((g) => (
+          {gallery.map((g, idx) => (
             <SpotlightCard
               key={g.id}
+              delay={(idx % 3) * 100}
               className="border border-white/10 bg-[#15141F] rounded-2xl overflow-hidden cursor-pointer group flex flex-col justify-between hover:border-[#8B5CF6]/50 transition-all duration-300"
             >
               <div onClick={() => setActiveImage(g)} className="flex flex-col h-full">

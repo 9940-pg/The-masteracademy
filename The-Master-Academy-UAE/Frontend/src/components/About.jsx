@@ -65,8 +65,8 @@ export default function About() {
 
         {/* Visual feature box */}
         <div className="grid sm:grid-cols-2 gap-5">
-          {features.map((f) => (
-            <SpotlightCard key={f.n} className="bg-[#15141F] border border-white/10 rounded-2xl p-6 flex flex-col justify-between">
+          {features.map((f, idx) => (
+            <SpotlightCard key={f.n} delay={idx * 100} className="bg-[#15141F] border border-white/10 rounded-2xl p-6 flex flex-col justify-between">
               <div className="w-10 h-10 rounded-xl bg-[#8B5CF6]/15 flex items-center justify-center text-[#C4B5FD] font-bold text-lg mb-4">
                 {f.n}
               </div>

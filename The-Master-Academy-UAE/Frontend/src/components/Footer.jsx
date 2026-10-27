@@ -123,7 +123,7 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start gap-2.5">
                 <span className="text-[#8B5CF6]">📞</span>
-                <span>واتساب: <a href="https://wa.me/919325719765" className="text-[#F8F7FC] hover:text-[#C4B5FD] dir-ltr inline-block">+971 50 123 4567</a></span>
+                <span>واتساب: <a href="https://wa.me/919325719765" className="text-[#F8F7FC] hover:text-[#C4B5FD] dir-ltr inline-block">+91 93257 19765</a></span>
               </li>
               <li className="flex items-start gap-2.5">
                 <span className="text-[#8B5CF6]">✉️</span>

@@ -47,9 +47,10 @@ export default function Trainers() {
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {mentors.map((m) => (
+          {mentors.map((m, idx) => (
             <SpotlightCard
               key={m.name}
+              delay={(idx % 3) * 100}
               className="rounded-2xl bg-[#15141F] border border-white/10 p-5 sm:p-6 flex flex-col justify-between hover:border-[#8B5CF6]/50 transition-all duration-300 group"
             >
               <div>

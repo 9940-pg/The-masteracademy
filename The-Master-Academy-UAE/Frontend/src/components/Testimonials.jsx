@@ -353,7 +353,7 @@ function AddReviewModal({ isOpen, onClose, onReviewAdded }) {
                 </label>
                 <input
                   type="tel"
-                  placeholder="+971 50 123 4567"
+                  placeholder="+91 93257 19765 أو رقمك"
                   value={formData.phone}
                   onChange={(e) =>
                     setFormData((prev) => ({ ...prev, phone: e.target.value }))
