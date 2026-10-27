@@ -1,7 +1,5 @@
 import { useState } from "react";
 import LanguageModal from "./components/LanguageModal";
-import SpotlightOverlay from "./components/SpotlightOverlay";
-import CursorGlow from "./components/CursorGlow";
 import CodeParticlesTrail from "./components/CodeParticlesTrail";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
@@ -26,9 +24,7 @@ export default function App() {
 
   return (
     <div className="relative min-h-screen bg-[#0B0A12] text-[#F8F7FC] selection:bg-[#8B5CF6]/30 selection:text-white overflow-x-hidden">
-      {/* Interactive Cursor Spotlight, Ambient Glow & Coding Syntax Particles */}
-      <SpotlightOverlay />
-      <CursorGlow />
+      {/* Interactive Coding Syntax Particle Trail */}
       <CodeParticlesTrail />
 
       {/* Language Selection Modal */}

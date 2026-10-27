@@ -1,6 +1,4 @@
 import { useState, useEffect } from "react";
-import SpotlightOverlay from "./components/SpotlightOverlay";
-import CursorGlow from "./components/CursorGlow";
 import CodeParticlesTrail from "./components/CodeParticlesTrail";
 import Navbar from "./components/Navbar";
 import LanguageModal from "./components/LanguageModal";
@@ -43,9 +41,7 @@ export default function App() {
         onClose={() => setIsLanguageModalOpen(false)}
       />
 
-      {/* Interactive Cursor Spotlight, Ambient Glow & Coding Syntax Particles */}
-      <SpotlightOverlay />
-      <CursorGlow />
+      {/* Interactive Coding Syntax Particle Trail */}
       <CodeParticlesTrail />
 
       {/* Main Layout Sections */}
