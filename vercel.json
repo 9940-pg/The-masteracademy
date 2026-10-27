@@ -1,27 +1,53 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "buildCommand": "node build-all.js",
-  "outputDirectory": "Frontend/dist",
+  "services": {
+    "frontend": {
+      "root": "Frontend",
+      "framework": "vite"
+    },
+    "frontend-2": {
+      "root": "The-Master-Academy-UAE/Frontend",
+      "framework": "vite"
+    },
+    "backend": {
+      "root": "Backend",
+      "framework": "express"
+    },
+    "backend-2": {
+      "root": "The-Master-Academy-UAE/Backend",
+      "framework": "express"
+    }
+  },
   "rewrites": [
     {
-      "source": "/uae-api/:path*",
-      "destination": "https://the-masteracademy.onrender.com/api/:path*"
+      "source": "/uae-api/(.*)",
+      "destination": {
+        "service": "backend-2"
+      }
     },
     {
-      "source": "/api/:path*",
-      "destination": "https://master-academy-api.onrender.com/api/:path*"
+      "source": "/api/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/uae/(.*)",
+      "destination": {
+        "service": "frontend-2"
+      }
     },
     {
       "source": "/uae",
-      "destination": "/uae/index.html"
+      "destination": {
+        "service": "frontend-2"
+      }
     },
     {
-      "source": "/uae/:path*",
-      "destination": "/uae/index.html"
-    },
-    {
-      "source": "/((?!api/|uae-api/).*)",
-      "destination": "/index.html"
+      "source": "/(.*)",
+      "destination": {
+        "service": "frontend"
+      }
     }
   ]
 }
