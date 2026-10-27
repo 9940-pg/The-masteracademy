@@ -34,3 +34,6 @@ dist-ssr
 # Vercel
 .vercel
 .git_backup
+
+.vercel
+.env*
